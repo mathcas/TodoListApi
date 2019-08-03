@@ -1,0 +1,27 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todolistapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathcas/TodoListApi.git"
+  },
+  "author": "Matheus Jose de Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathcas/TodoListApi/issues"
+  },
+  "homepage": "https://github.com/mathcas/TodoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8"
+  }
+}
